@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #efefef;    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #1c1c1c;
+    padding: 16px;
+    border-radius: 26px;
+}
+.output {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-right: 8px;
+    width: 100%;
+    height: 64px;
+    background: transparent;
+}
+
+.previus-operand {
+    color: #9F9F9F;
+    font-weight: 300;
+    font-size: 14px
+}
+.current-operand {
+    color: #FDFDFD;
+    font-size: 24px
+}
+
+table {
+    margin-top: 16px;
+    border-spacing: 6px;
+}
+
+tr {
+    margin-top: 64px
+}
+
+td { 
+    width: 48px;
+    height: 48px;
+    border: 0;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+button:hover {
+    filter: brightness(0.9)
+}
+.number {  
+    color: #a8a8a8;
+    background: #303131;  
+}
+.zero {
+    justify-content: left;
+    padding-left: 18px
+}
+.operator {
+    background: #D98805;
+    color: #F7E3C1;
+}
+.other {
+    background: #9F9F9F;
+    color: #191919;
+}

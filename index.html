@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+<div class="content">
+        <div class="output">
+            <div data-previus class="previus-operand"></div>
+            <div data-current class="current-operand"></div>
+        </div>
+        <table>
+            <tr>
+                <td><button data-all-clear class="other">AC</button></td>
+                <td><button data-toggle-signal class="other">±</button></td>
+                <td><button data-percentage class="other">%</button></td>
+                <td><button data-operator class="operator">÷</button></td>
+            </tr>
+            <tr>
+                <td><button data-number class="number">7</button></td>
+                <td><button data-number class="number">8</button></td>
+                <td><button data-number class="number">9</button></td>
+                <td><button data-operator class="operator">x</button></td>
+            </tr>
+            <tr>
+                <td><button data-number class="number">4</button></td>
+                <td><button data-number class="number">5</button></td>
+                <td><button data-number class="number">6</button></td>
+                <td><button data-operator class="operator">-</button></td>
+            </tr>
+            <tr>
+                <td><button data-number class="number">1</button></td>
+                <td><button data-number class="number">2</button></td>
+                <td><button data-number class="number">3</button></td>
+                <td><button data-operator class="operator">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button data-number class="number zero">0</button></td>
+                <td><button data-number class="number">.</button></td>
+                <td><button data-equals class="operator">=</button></td>
+            </tr>
+        </table>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
